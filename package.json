@@ -1,22 +1,23 @@
 {
-	"name": "playwright-swaglabs-e2e",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "playwright test",
-		"test:headed": "playwright test --headed",
-		"report": "playwright show-report"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"type": "commonjs",
-	"devDependencies": {
-		"@playwright/test": "^1.55.0"
-	},
-	"dependencies": {
-		"playwright": "^1.55.0",
-		"playwright-core": "^1.55.0"
-	}
+  "name": "playwright-swaglabs-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0",
+    "playwright-core": "^1.55.0"
+  }
 }
