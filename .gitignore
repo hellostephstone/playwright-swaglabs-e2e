@@ -141,3 +141,7 @@ vite.config.ts.timestamp-*
 
 # macOS Finder
 .DS_Store
+
+# Playwright
+playwright-report/
+test-results/
